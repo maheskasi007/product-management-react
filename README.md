@@ -81,6 +81,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Git Repo
 
-[https://885852@dev.azure.com/885852/product-management/_git/product-management]
+[https://github.com/maheskasi007/product-management-react.git]
 
 
