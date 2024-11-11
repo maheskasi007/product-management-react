@@ -1,0 +1,47 @@
+.navbar-logo {
+  color: #fff;
+}
+
+.nav-menu {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.w-90 {
+  min-width: 10% !important;
+}
+
+.nav-item {
+  min-width: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Roboto', sans-serif;
+  color: #bebebe;
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 16px 0;
+  padding: 6px 8px;
+}
+
+.active {
+  color: #fff !important;
+  transition: all 0.2s ease-in-out;
+}
+
+footer {
+  background-color: #333333d4;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  padding-left: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: left;
+}
+
+
+@media all and (max-width: 992px) {}
