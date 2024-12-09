@@ -1,11 +1,9 @@
-import { Suspense, useReducer } from 'react';
+import { Suspense } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { CircularProgress } from '@mui/material';
 
 import './App.css';
-import { AppContext } from './contexts/AppContext';
-import appReducer from './reducers/appReducer';
 import ErrorBoundary from './containers/ErrorBoundary/ErrorBoundary';
 import AppRoutes from './routes/AppRoutes/AppRoutes';
 import Header from './components/Header/Header';
