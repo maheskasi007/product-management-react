@@ -1,9 +1,8 @@
-import { useContext, useEffect } from 'react';
-import axios from 'axios';
-import { Box, Typography, Grid2, CircularProgress } from '@mui/material';
-import { AppContext, useGlobalContext } from '../../../contexts/AppContext';
+
+
+import { Box, Typography, Grid2 } from '@mui/material';
+import { useGlobalContext } from '../../../contexts/AppContext';
 import ProductCard from '../../../components/ProductCard/ProductCard';
-import { productUrl } from '../../../services/AppServices';
 
 const FeaturedProducts = () => {
   const { product } = useGlobalContext();
