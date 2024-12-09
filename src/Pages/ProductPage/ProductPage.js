@@ -1,7 +1,6 @@
-import { useContext, useEffect } from 'react';
-import axios from 'axios';
-import { Box, CircularProgress, Grid2, Typography } from '@mui/material';
-import { AppContext, useGlobalContext } from '../../contexts/AppContext';
+
+import { Box, Grid2, Typography } from '@mui/material';
+import { useGlobalContext } from '../../contexts/AppContext';
 import Title from '../../components/Title/Title';
 import ProductCard from '../../components/ProductCard/ProductCard';
 
