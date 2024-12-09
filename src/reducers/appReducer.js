@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { addProduct, productUrl, removeProduct } from '../services/AppServices';
+import { productUrl, removeProduct } from '../services/AppServices';
 
 const appReducer = (state, action) => {
   let newProductList = new Map(state.product);
