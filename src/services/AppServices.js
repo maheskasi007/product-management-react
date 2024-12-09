@@ -1,6 +1,5 @@
 import { Typography } from '@mui/material';
 import axios from 'axios';
-import { useState } from 'react';
 
 export const productUrl = 'http://localhost:5000/products';
 
