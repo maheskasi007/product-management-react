@@ -1,10 +1,8 @@
 import axios from 'axios';
-import { useContext, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import {
   Box,
-  Button,
-  CardActions,
   CircularProgress,
   Grid2,
   Typography,
