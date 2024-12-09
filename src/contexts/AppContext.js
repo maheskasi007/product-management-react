@@ -32,7 +32,7 @@ export const AppProvider = ({ children }) => {
       .catch(() => {
         setIsError(true);
       });
-  }, []);
+  });
 
   if (isError) {
     return (
